@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9017BE10170632E9C7BFC2F0 /* SkOTUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0B9D67C3265CDEE60F3BF1F /* SkOTUtils.cpp */; };
+		F977956EDEAD13A39B6FC2CA /* SkOTTable_name.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B087E21D5F7E46082BCB9D59 /* SkOTTable_name.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00381940D34A9AA0AE8BDF2A /* SkOTTable_maxp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_maxp.h; sourceTree = "<group>"; };
+		02BDDA3482F35C500DF7B0D4 /* SkOTTable_OS_2_V2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2_V2.h; sourceTree = "<group>"; };
+		0536368964DD7AD8CBDFA089 /* SkSFNTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkSFNTHeader.h; sourceTree = "<group>"; };
+		0C55D63FAD74922D2741E7B7 /* SkOTTable_OS_2_V3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2_V3.h; sourceTree = "<group>"; };
+		1E64C131213F79FDA5B6C71A /* SkOTTable_maxp_CFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_maxp_CFF.h; sourceTree = "<group>"; };
+		2CAAE8F35E7A4821F1CF9557 /* SkOTTable_OS_2_V1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2_V1.h; sourceTree = "<group>"; };
+		391DB833E73D0615FDCE6A99 /* SkOTTableTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTableTypes.h; sourceTree = "<group>"; };
+		3BF1D7EAC16E0599EC448E7F /* sfnt.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = sfnt.gyp; sourceTree = "<group>"; };
+		44839178DF32F180A06C6033 /* SkOTTable_glyf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_glyf.h; sourceTree = "<group>"; };
+		559809DE3EC572CA9A6B401D /* SkTypedEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTypedEnum.h; sourceTree = "<group>"; };
+		603B0D8199DBB579D4FE731B /* SkOTTable_hhea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_hhea.h; sourceTree = "<group>"; };
+		7486C58AFFC84753413DDA51 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../../build/common.gypi; sourceTree = "<group>"; };
+		86513E88DD5247137BE7AC68 /* SkOTTable_post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_post.h; sourceTree = "<group>"; };
+		92F17E2593027B5AA41147BD /* SkTTCFHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTTCFHeader.h; sourceTree = "<group>"; };
+		967FD6F756BE36A47081C5F6 /* SkOTTable_maxp_TT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_maxp_TT.h; sourceTree = "<group>"; };
+		9D5C07682BB46D8E81FEE819 /* SkOTTable_loca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_loca.h; sourceTree = "<group>"; };
+		9D7E8B28EB996DB7D040F2B8 /* SkOTTable_OS_2_V0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2_V0.h; sourceTree = "<group>"; };
+		A00C08AD2E81FE7D7B668852 /* SkOTTable_head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_head.h; sourceTree = "<group>"; };
+		AAB0516CB8202716AA8CBED5 /* SkIBMFamilyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkIBMFamilyClass.h; sourceTree = "<group>"; };
+		B087E21D5F7E46082BCB9D59 /* SkOTTable_name.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkOTTable_name.cpp; sourceTree = "<group>"; };
+		B9B192D874C0DAEB3356CB21 /* libskia_sfnt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libskia_sfnt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB78CDB1F7C01FDBED811B90 /* SkOTTable_name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_name.h; sourceTree = "<group>"; };
+		CF9A27D26188C6E1BC7B9EC9 /* SkPanose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPanose.h; sourceTree = "<group>"; };
+		D8984FF9FDD01C8DEAEA5456 /* SkOTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTUtils.h; sourceTree = "<group>"; };
+		DEB642E1FBECF934AAF0EA74 /* SkOTTable_OS_2_V4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2_V4.h; sourceTree = "<group>"; };
+		E181112EA558D5F62E996205 /* SkOTTable_OS_2_VA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2_VA.h; sourceTree = "<group>"; };
+		E579A79FB4D77809AC7A8252 /* SkOTTable_OS_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOTTable_OS_2.h; sourceTree = "<group>"; };
+		EB85E4A9B4D4D7E1D8263CFE /* SkPreprocessorSeq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPreprocessorSeq.h; sourceTree = "<group>"; };
+		F0B9D67C3265CDEE60F3BF1F /* SkOTUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkOTUtils.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A3FEB907CCB39E7861ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F5D9C6CFCA8EB25BC40EC9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0516CB8202716AA8CBED5 /* SkIBMFamilyClass.h */,
+				391DB833E73D0615FDCE6A99 /* SkOTTableTypes.h */,
+				E579A79FB4D77809AC7A8252 /* SkOTTable_OS_2.h */,
+				9D7E8B28EB996DB7D040F2B8 /* SkOTTable_OS_2_V0.h */,
+				2CAAE8F35E7A4821F1CF9557 /* SkOTTable_OS_2_V1.h */,
+				02BDDA3482F35C500DF7B0D4 /* SkOTTable_OS_2_V2.h */,
+				0C55D63FAD74922D2741E7B7 /* SkOTTable_OS_2_V3.h */,
+				DEB642E1FBECF934AAF0EA74 /* SkOTTable_OS_2_V4.h */,
+				E181112EA558D5F62E996205 /* SkOTTable_OS_2_VA.h */,
+				44839178DF32F180A06C6033 /* SkOTTable_glyf.h */,
+				A00C08AD2E81FE7D7B668852 /* SkOTTable_head.h */,
+				603B0D8199DBB579D4FE731B /* SkOTTable_hhea.h */,
+				9D5C07682BB46D8E81FEE819 /* SkOTTable_loca.h */,
+				00381940D34A9AA0AE8BDF2A /* SkOTTable_maxp.h */,
+				1E64C131213F79FDA5B6C71A /* SkOTTable_maxp_CFF.h */,
+				967FD6F756BE36A47081C5F6 /* SkOTTable_maxp_TT.h */,
+				B087E21D5F7E46082BCB9D59 /* SkOTTable_name.cpp */,
+				CB78CDB1F7C01FDBED811B90 /* SkOTTable_name.h */,
+				86513E88DD5247137BE7AC68 /* SkOTTable_post.h */,
+				F0B9D67C3265CDEE60F3BF1F /* SkOTUtils.cpp */,
+				D8984FF9FDD01C8DEAEA5456 /* SkOTUtils.h */,
+				CF9A27D26188C6E1BC7B9EC9 /* SkPanose.h */,
+				EB85E4A9B4D4D7E1D8263CFE /* SkPreprocessorSeq.h */,
+				0536368964DD7AD8CBDFA089 /* SkSFNTHeader.h */,
+				92F17E2593027B5AA41147BD /* SkTTCFHeader.h */,
+				559809DE3EC572CA9A6B401D /* SkTypedEnum.h */,
+			);
+			name = Source;
+			path = ../src/sfnt;
+			sourceTree = "<group>";
+		};
+		386B4C9EED6DC95705902D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B192D874C0DAEB3356CB21 /* libskia_sfnt.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8914A6039372A25E9D1845 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				7486C58AFFC84753413DDA51 /* common.gypi */,
+				3BF1D7EAC16E0599EC448E7F /* sfnt.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		F6B62D6CECFB7DE29F10C8B7 = {
+			isa = PBXGroup;
+			children = (
+				36F5D9C6CFCA8EB25BC40EC9 /* Source */,
+				386B4C9EED6DC95705902D63 /* Products */,
+				CD8914A6039372A25E9D1845 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57EFBE15E8815D5865F6D5C7 /* sfnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F6DE90B702F25CCB493F67 /* Build configuration list for PBXNativeTarget "sfnt" */;
+			buildPhases = (
+				5211CC18C4BAB1E7E586397D /* Sources */,
+				26A3FEB907CCB39E7861ACCD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sfnt;
+			productName = skia_sfnt;
+			productReference = B9B192D874C0DAEB3356CB21 /* libskia_sfnt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B2B7FD93531C0427DD3581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 62799055B154BD5F3E4D106F /* Build configuration list for PBXProject "sfnt" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = F6B62D6CECFB7DE29F10C8B7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57EFBE15E8815D5865F6D5C7 /* sfnt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5211CC18C4BAB1E7E586397D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F977956EDEAD13A39B6FC2CA /* SkOTTable_name.cpp in Sources */,
+				9017BE10170632E9C7BFC2F0 /* SkOTUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D26AC1E62F4C1DB77FFBBA3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		716910D2645831C7C9828996 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					../src/sfnt,
+					config,
+					../include/config,
+					../include/core,
+					../include/lazy,
+					../include/pathops,
+					../include/pipe,
+					ext,
+				);
+				PRODUCT_NAME = skia_sfnt;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62799055B154BD5F3E4D106F /* Build configuration list for PBXProject "sfnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D26AC1E62F4C1DB77FFBBA3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		91F6DE90B702F25CCB493F67 /* Build configuration list for PBXNativeTarget "sfnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716910D2645831C7C9828996 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B2B7FD93531C0427DD3581 /* Project object */;
+}

@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02063222ED55E20D6EAD65A8 /* SkImageRef_GlobalPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF75CE71E9B53FB44FD630DE /* SkImageRef_GlobalPool.cpp */; };
+		10F6A73545E4CE289076019A /* SkDecodingImageGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E4126AC90B3DE57C0AC66B /* SkDecodingImageGenerator.cpp */; };
+		141193E8FBB417D158329945 /* SkImageDecoder_libico.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 293126865B91FE4612DCE411 /* SkImageDecoder_libico.cpp */; };
+		15A8BFAD4A10D7C96FDC4548 /* SkImageRefPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47028FFD89DC23D3B473EA71 /* SkImageRefPool.cpp */; };
+		230CD7FB104472D56131A3EF /* SkImageDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E2BAED2B8B71E40726C887 /* SkImageDecoder.cpp */; };
+		237871BFCBD6ABE99D4128B2 /* SkImageDecoder_wbmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 876AB1E494AE134D65AEA101 /* SkImageDecoder_wbmp.cpp */; };
+		26E24D48CC9B8038649293F0 /* bmpdecoderhelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B827DB0177F9401697E7DA1 /* bmpdecoderhelper.cpp */; };
+		2E87C5AC7C83AC651CB86367 /* SkMovie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA1D075DE3F9C9844C003FD /* SkMovie.cpp */; };
+		3B9F8B4E981A63F30083CD20 /* SkForceLinking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9EB9CCF5DE5552315BF9E6A /* SkForceLinking.cpp */; };
+		40FF26A05E86328AEF6DE05E /* SkStreamHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E47C71F8EAB2004E4F3194D /* SkStreamHelpers.cpp */; };
+		4A2B618CB98E775D397B4333 /* SkImageDecoder_libpng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F6EA037581669AB16F9C2 /* SkImageDecoder_libpng.cpp */; };
+		673566937909BE4A405CDEC1 /* SkScaledBitmapSampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68D63F4BD2E48F107F60B54 /* SkScaledBitmapSampler.cpp */; };
+		745F54BA149764CD89C316DA /* SkImages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8DD541B5E775D18C47C18 /* SkImages.cpp */; };
+		75A9F34DE4282FF496CF0046 /* SkImageDecoder_FactoryRegistrar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A41EE93724ECF768888F8C1 /* SkImageDecoder_FactoryRegistrar.cpp */; };
+		84FD6B23B3BADA4E27E669A6 /* SkImageEncoder_argb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AC90833BFF905C83607B541 /* SkImageEncoder_argb.cpp */; };
+		8F0057031302D5D5B67B5AF9 /* SkJpegUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 592A046855B85B2E94EEBDEE /* SkJpegUtility.cpp */; };
+		9F2AE8B7BC82FE5F052B02F1 /* SkImageEncoder_Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25FB0A38A18058A528A3348A /* SkImageEncoder_Factory.cpp */; };
+		A1664A0D9291E8278123EE26 /* SkImageDecoder_FactoryDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01F2721B0A2F9478C62C4C2A /* SkImageDecoder_FactoryDefault.cpp */; };
+		AE96B91103EE027E81F1D8D5 /* SkImageRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FE463DA57158F5855D0A809 /* SkImageRef.cpp */; };
+		C2E213C4CE21DCBAFECC157D /* SkImageDecoder_libgif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20382B135C311B8A2979F19E /* SkImageDecoder_libgif.cpp */; };
+		E5DA32CFF7BF90B7E88588D7 /* SkImageEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76ED1153DFDC574409ADC26B /* SkImageEncoder.cpp */; };
+		F2F793A7DE69B006A3C09BBD /* SkMovie_gif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D627C0AB960A5972FE9D8A /* SkMovie_gif.cpp */; };
+		F4AB4D1EA0E53367A3133C67 /* SkImageDecoder_libjpeg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589AC7B093BD660098E5623D /* SkImageDecoder_libjpeg.cpp */; };
+		FC8BDF1880620C7E365D0EAB /* SkPageFlipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899428806515A91852CE59F3 /* SkPageFlipper.cpp */; };
+		FFA936A69050502A48E5A5AE /* SkImageDecoder_libbmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4854C13CD47F0C10CD81752B /* SkImageDecoder_libbmp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F2721B0A2F9478C62C4C2A /* SkImageDecoder_FactoryDefault.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_FactoryDefault.cpp; sourceTree = "<group>"; };
+		040A35C8E38D82931ACC0A81 /* SkImageRefPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkImageRefPool.h; sourceTree = "<group>"; };
+		1A41EE93724ECF768888F8C1 /* SkImageDecoder_FactoryRegistrar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_FactoryRegistrar.cpp; sourceTree = "<group>"; };
+		20015AA0A30BEC6B7080AD45 /* images.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = images.gyp; sourceTree = "<group>"; };
+		20382B135C311B8A2979F19E /* SkImageDecoder_libgif.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_libgif.cpp; sourceTree = "<group>"; };
+		24D22BD955B63A36CA61D9B2 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../../build/common.gypi; sourceTree = "<group>"; };
+		25FB0A38A18058A528A3348A /* SkImageEncoder_Factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageEncoder_Factory.cpp; sourceTree = "<group>"; };
+		293126865B91FE4612DCE411 /* SkImageDecoder_libico.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_libico.cpp; sourceTree = "<group>"; };
+		2AC90833BFF905C83607B541 /* SkImageEncoder_argb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageEncoder_argb.cpp; sourceTree = "<group>"; };
+		2B7F6EA037581669AB16F9C2 /* SkImageDecoder_libpng.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_libpng.cpp; sourceTree = "<group>"; };
+		2F949B9DEA68B97A5675478A /* SkPageFlipper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPageFlipper.h; sourceTree = "<group>"; };
+		3822E1C78B6C1795DC2A48B8 /* libskia_images.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libskia_images.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACE0CBF8F5C2507CFBE2F90 /* SkForceLinking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkForceLinking.h; sourceTree = "<group>"; };
+		3B0E5E0BFBE8F69A42414E53 /* SkMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkMovie.h; sourceTree = "<group>"; };
+		47028FFD89DC23D3B473EA71 /* SkImageRefPool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageRefPool.cpp; sourceTree = "<group>"; };
+		4854C13CD47F0C10CD81752B /* SkImageDecoder_libbmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_libbmp.cpp; sourceTree = "<group>"; };
+		49D627C0AB960A5972FE9D8A /* SkMovie_gif.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMovie_gif.cpp; sourceTree = "<group>"; };
+		49E4126AC90B3DE57C0AC66B /* SkDecodingImageGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDecodingImageGenerator.cpp; sourceTree = "<group>"; };
+		4B827DB0177F9401697E7DA1 /* bmpdecoderhelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bmpdecoderhelper.cpp; sourceTree = "<group>"; };
+		4FE463DA57158F5855D0A809 /* SkImageRef.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageRef.cpp; sourceTree = "<group>"; };
+		589AC7B093BD660098E5623D /* SkImageDecoder_libjpeg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_libjpeg.cpp; sourceTree = "<group>"; };
+		592A046855B85B2E94EEBDEE /* SkJpegUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkJpegUtility.cpp; sourceTree = "<group>"; };
+		63545228FBC4F2B30EF8FB72 /* bmpdecoderhelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmpdecoderhelper.h; sourceTree = "<group>"; };
+		694F7A252BE471914E7901E3 /* SkStreamHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkStreamHelpers.h; sourceTree = "<group>"; };
+		6E47C71F8EAB2004E4F3194D /* SkStreamHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkStreamHelpers.cpp; sourceTree = "<group>"; };
+		76ED1153DFDC574409ADC26B /* SkImageEncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageEncoder.cpp; sourceTree = "<group>"; };
+		876AB1E494AE134D65AEA101 /* SkImageDecoder_wbmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_wbmp.cpp; sourceTree = "<group>"; };
+		8915318303C05A85F0EACB90 /* SkJpegUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkJpegUtility.h; sourceTree = "<group>"; };
+		899428806515A91852CE59F3 /* SkPageFlipper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPageFlipper.cpp; sourceTree = "<group>"; };
+		89A4D3DDEE5AF38E0D5A069E /* SkImageRef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkImageRef.h; sourceTree = "<group>"; };
+		8EB8DD541B5E775D18C47C18 /* SkImages.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImages.cpp; sourceTree = "<group>"; };
+		9FA21BD94654CDAD797EDBF4 /* SkImageDecoder_CG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_CG.cpp; sourceTree = "<group>"; };
+		A33B2EC16CA7D3A754A671B4 /* SkScaledBitmapSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkScaledBitmapSampler.h; sourceTree = "<group>"; };
+		A66FBFFE857C411AA04A85B2 /* SkImageRef_GlobalPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkImageRef_GlobalPool.h; sourceTree = "<group>"; };
+		B9EB9CCF5DE5552315BF9E6A /* SkForceLinking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkForceLinking.cpp; sourceTree = "<group>"; };
+		C0E2BAED2B8B71E40726C887 /* SkImageDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder.cpp; sourceTree = "<group>"; };
+		CF7679EB357FC8C39FC3ADD5 /* SkImageDecoder_WIC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageDecoder_WIC.cpp; sourceTree = "<group>"; };
+		D19F6CBD479D5FD2BB5A480B /* SkDecodingImageGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDecodingImageGenerator.h; sourceTree = "<group>"; };
+		D2253873C6CC6126447D891C /* SkImageRef_ashmem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageRef_ashmem.cpp; sourceTree = "<group>"; };
+		D68D63F4BD2E48F107F60B54 /* SkScaledBitmapSampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkScaledBitmapSampler.cpp; sourceTree = "<group>"; };
+		DB0C8CB8390ED6C52F7703D1 /* SkImageRef_ashmem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkImageRef_ashmem.h; sourceTree = "<group>"; };
+		EAA1D075DE3F9C9844C003FD /* SkMovie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMovie.cpp; sourceTree = "<group>"; };
+		FF75CE71E9B53FB44FD630DE /* SkImageRef_GlobalPool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkImageRef_GlobalPool.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F501CF9620E521CBFFEAC249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034F3254847A50911D83FC3B /* ports */ = {
+			isa = PBXGroup;
+			children = (
+				9FA21BD94654CDAD797EDBF4 /* SkImageDecoder_CG.cpp */,
+				CF7679EB357FC8C39FC3ADD5 /* SkImageDecoder_WIC.cpp */,
+			);
+			path = ports;
+			sourceTree = "<group>";
+		};
+		1FFE98AB15BE8F40D6043203 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				49E4126AC90B3DE57C0AC66B /* SkDecodingImageGenerator.cpp */,
+				D19F6CBD479D5FD2BB5A480B /* SkDecodingImageGenerator.h */,
+				B9EB9CCF5DE5552315BF9E6A /* SkForceLinking.cpp */,
+				C0E2BAED2B8B71E40726C887 /* SkImageDecoder.cpp */,
+				01F2721B0A2F9478C62C4C2A /* SkImageDecoder_FactoryDefault.cpp */,
+				1A41EE93724ECF768888F8C1 /* SkImageDecoder_FactoryRegistrar.cpp */,
+				4854C13CD47F0C10CD81752B /* SkImageDecoder_libbmp.cpp */,
+				20382B135C311B8A2979F19E /* SkImageDecoder_libgif.cpp */,
+				293126865B91FE4612DCE411 /* SkImageDecoder_libico.cpp */,
+				589AC7B093BD660098E5623D /* SkImageDecoder_libjpeg.cpp */,
+				2B7F6EA037581669AB16F9C2 /* SkImageDecoder_libpng.cpp */,
+				876AB1E494AE134D65AEA101 /* SkImageDecoder_wbmp.cpp */,
+				76ED1153DFDC574409ADC26B /* SkImageEncoder.cpp */,
+				25FB0A38A18058A528A3348A /* SkImageEncoder_Factory.cpp */,
+				2AC90833BFF905C83607B541 /* SkImageEncoder_argb.cpp */,
+				4FE463DA57158F5855D0A809 /* SkImageRef.cpp */,
+				47028FFD89DC23D3B473EA71 /* SkImageRefPool.cpp */,
+				040A35C8E38D82931ACC0A81 /* SkImageRefPool.h */,
+				FF75CE71E9B53FB44FD630DE /* SkImageRef_GlobalPool.cpp */,
+				D2253873C6CC6126447D891C /* SkImageRef_ashmem.cpp */,
+				DB0C8CB8390ED6C52F7703D1 /* SkImageRef_ashmem.h */,
+				8EB8DD541B5E775D18C47C18 /* SkImages.cpp */,
+				592A046855B85B2E94EEBDEE /* SkJpegUtility.cpp */,
+				8915318303C05A85F0EACB90 /* SkJpegUtility.h */,
+				EAA1D075DE3F9C9844C003FD /* SkMovie.cpp */,
+				49D627C0AB960A5972FE9D8A /* SkMovie_gif.cpp */,
+				899428806515A91852CE59F3 /* SkPageFlipper.cpp */,
+				D68D63F4BD2E48F107F60B54 /* SkScaledBitmapSampler.cpp */,
+				A33B2EC16CA7D3A754A671B4 /* SkScaledBitmapSampler.h */,
+				6E47C71F8EAB2004E4F3194D /* SkStreamHelpers.cpp */,
+				694F7A252BE471914E7901E3 /* SkStreamHelpers.h */,
+				4B827DB0177F9401697E7DA1 /* bmpdecoderhelper.cpp */,
+				63545228FBC4F2B30EF8FB72 /* bmpdecoderhelper.h */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2076AF04D0A47AABB3346EA5 = {
+			isa = PBXGroup;
+			children = (
+				57E084339549F463C650549F /* Source */,
+				248EBA41BCCCD88E71D994CF /* Products */,
+				A2B7E6C8984975EDFD7575A1 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		248EBA41BCCCD88E71D994CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3822E1C78B6C1795DC2A48B8 /* libskia_images.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40791961B69B2E959DDCF0D8 /* include/images */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE0CBF8F5C2507CFBE2F90 /* SkForceLinking.h */,
+				89A4D3DDEE5AF38E0D5A069E /* SkImageRef.h */,
+				A66FBFFE857C411AA04A85B2 /* SkImageRef_GlobalPool.h */,
+				3B0E5E0BFBE8F69A42414E53 /* SkMovie.h */,
+				2F949B9DEA68B97A5675478A /* SkPageFlipper.h */,
+			);
+			path = include/images;
+			sourceTree = "<group>";
+		};
+		57E084339549F463C650549F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				40791961B69B2E959DDCF0D8 /* include/images */,
+				D2AD04FF889C7D01F282353D /* src */,
+			);
+			name = Source;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A2B7E6C8984975EDFD7575A1 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				24D22BD955B63A36CA61D9B2 /* common.gypi */,
+				20015AA0A30BEC6B7080AD45 /* images.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		D2AD04FF889C7D01F282353D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1FFE98AB15BE8F40D6043203 /* images */,
+				034F3254847A50911D83FC3B /* ports */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A48FDCBAFF0B3D6F97E7AD5 /* images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28168BCCFBCC14B3FFAA6FA /* Build configuration list for PBXNativeTarget "images" */;
+			buildPhases = (
+				6D88B972D9A110CDAA03CA0C /* Sources */,
+				F501CF9620E521CBFFEAC249 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = images;
+			productName = skia_images;
+			productReference = 3822E1C78B6C1795DC2A48B8 /* libskia_images.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683876EE9971686FE15005A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 2AB099DFE398552C70C57491 /* Build configuration list for PBXProject "images" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 2076AF04D0A47AABB3346EA5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A48FDCBAFF0B3D6F97E7AD5 /* images */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D88B972D9A110CDAA03CA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E24D48CC9B8038649293F0 /* bmpdecoderhelper.cpp in Sources */,
+				10F6A73545E4CE289076019A /* SkDecodingImageGenerator.cpp in Sources */,
+				3B9F8B4E981A63F30083CD20 /* SkForceLinking.cpp in Sources */,
+				230CD7FB104472D56131A3EF /* SkImageDecoder.cpp in Sources */,
+				A1664A0D9291E8278123EE26 /* SkImageDecoder_FactoryDefault.cpp in Sources */,
+				75A9F34DE4282FF496CF0046 /* SkImageDecoder_FactoryRegistrar.cpp in Sources */,
+				FFA936A69050502A48E5A5AE /* SkImageDecoder_libbmp.cpp in Sources */,
+				C2E213C4CE21DCBAFECC157D /* SkImageDecoder_libgif.cpp in Sources */,
+				141193E8FBB417D158329945 /* SkImageDecoder_libico.cpp in Sources */,
+				F4AB4D1EA0E53367A3133C67 /* SkImageDecoder_libjpeg.cpp in Sources */,
+				4A2B618CB98E775D397B4333 /* SkImageDecoder_libpng.cpp in Sources */,
+				237871BFCBD6ABE99D4128B2 /* SkImageDecoder_wbmp.cpp in Sources */,
+				E5DA32CFF7BF90B7E88588D7 /* SkImageEncoder.cpp in Sources */,
+				9F2AE8B7BC82FE5F052B02F1 /* SkImageEncoder_Factory.cpp in Sources */,
+				84FD6B23B3BADA4E27E669A6 /* SkImageEncoder_argb.cpp in Sources */,
+				AE96B91103EE027E81F1D8D5 /* SkImageRef.cpp in Sources */,
+				15A8BFAD4A10D7C96FDC4548 /* SkImageRefPool.cpp in Sources */,
+				02063222ED55E20D6EAD65A8 /* SkImageRef_GlobalPool.cpp in Sources */,
+				745F54BA149764CD89C316DA /* SkImages.cpp in Sources */,
+				8F0057031302D5D5B67B5AF9 /* SkJpegUtility.cpp in Sources */,
+				2E87C5AC7C83AC651CB86367 /* SkMovie.cpp in Sources */,
+				F2F793A7DE69B006A3C09BBD /* SkMovie_gif.cpp in Sources */,
+				FC8BDF1880620C7E365D0EAB /* SkPageFlipper.cpp in Sources */,
+				673566937909BE4A405CDEC1 /* SkScaledBitmapSampler.cpp in Sources */,
+				40FF26A05E86328AEF6DE05E /* SkStreamHelpers.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47ED1FB9EC1AA3BBE324E6BC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					../include/images,
+					../include/lazy,
+					../src/lazy,
+					../src/core/,
+					../src/image/,
+					../src/images/,
+					config,
+					../include/config,
+					../include/core,
+					../include/pathops,
+					../include/pipe,
+					ext,
+					../third_party/externals/libjpeg,
+					../include/utils,
+				);
+				PRODUCT_NAME = skia_images;
+			};
+			name = Default;
+		};
+		8F5CA59348B4C7D0F83C3D1A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB099DFE398552C70C57491 /* Build configuration list for PBXProject "images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5CA59348B4C7D0F83C3D1A /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		E28168BCCFBCC14B3FFAA6FA /* Build configuration list for PBXNativeTarget "images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ED1FB9EC1AA3BBE324E6BC /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683876EE9971686FE15005A9 /* Project object */;
+}

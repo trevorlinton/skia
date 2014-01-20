@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FAACAD0576FEAB6DC6993FBC /* skia_lib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D30EA780617D0A45F3155EDA /* Build configuration list for PBXAggregateTarget "skia_lib" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4CC3E20EE06C3EE1238BDA8E /* PBXTargetDependency */,
+				F961F8BEE81EDDEA1E021F77 /* PBXTargetDependency */,
+				4C37A6FA0DC01492484574A3 /* PBXTargetDependency */,
+				DDA459F46BEDB7730489EEAD /* PBXTargetDependency */,
+				60BFD62A6CF9D24AF3D7E52B /* PBXTargetDependency */,
+				BE9B025F8D7A6C5409D45E81 /* PBXTargetDependency */,
+				E475AD6DBA58B91DABF2BCE7 /* PBXTargetDependency */,
+			);
+			name = skia_lib;
+			productName = skia_lib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		01DDB247A898DF391A69A151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DA39C9AACF725BC7F049A3 /* ports.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 893C86EDF0B84BC89CB43E59;
+			remoteInfo = ports;
+		};
+		5471CE4DC76308F54FB8628B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDD64F4088F81DD4DA0FD67 /* images.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3822E1C78B6C1795DC2A48B8;
+			remoteInfo = images;
+		};
+		630841D4207D34CB6813A8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DA39C9AACF725BC7F049A3 /* ports.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FBB2066D17FDFB873DA3F9;
+			remoteInfo = ports;
+		};
+		6AC48878BC0CCB0F56D856FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6D1AA71E893CE0EF4EA9C9 /* utils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EB7C6A4C955592AFCAF5F41;
+			remoteInfo = utils;
+		};
+		75CB90B517ED21EF513B1A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A1C281FEB016408DA04D8E;
+			remoteInfo = opts_ssse3;
+		};
+		77463E9677B5B06CDF51B128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 801760729BE30DF59BEA25B9;
+			remoteInfo = opts;
+		};
+		77F64C4A4EB7D135B4833DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6D1AA71E893CE0EF4EA9C9 /* utils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7364408688F1A6434987562A;
+			remoteInfo = utils;
+		};
+		89C9A42FD69241A90B6C290D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6821A24FD142D35CC9DC847 /* sfnt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B9B192D874C0DAEB3356CB21;
+			remoteInfo = sfnt;
+		};
+		ADA063417345A81FDD4C263D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AE6AC268A5FAD1849D1D70 /* effects.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 933354B5157FEBAE42200A3F;
+			remoteInfo = effects;
+		};
+		B49937F08B4471BD158BB561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AE6AC268A5FAD1849D1D70 /* effects.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0EB02F40D8DAD92937C53E1;
+			remoteInfo = effects;
+		};
+		B79001C96150923455B78F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 182DD1C8F36FC5D01DF29ED2;
+			remoteInfo = opts_neon;
+		};
+		C68F82A3E84ED7565A60D344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7606E550DF9A6BBE1114B97 /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B0B759BB059054EC7CBAB551;
+			remoteInfo = core;
+		};
+		D00196FD4339307A0EC0988A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6821A24FD142D35CC9DC847 /* sfnt.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57EFBE15E8815D5865F6D5C7;
+			remoteInfo = sfnt;
+		};
+		D79B3685C08F446BAE03927C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDD64F4088F81DD4DA0FD67 /* images.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A48FDCBAFF0B3D6F97E7AD5;
+			remoteInfo = images;
+		};
+		EABCFB2E7F9E7E7278D08368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CC1A8D20D23AAB135C0C8AF;
+			remoteInfo = opts;
+		};
+		EB941C701833508FDA617B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7606E550DF9A6BBE1114B97 /* core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9991BB6607533745115226;
+			remoteInfo = core;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53DA39C9AACF725BC7F049A3 /* ports.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ports.xcodeproj; sourceTree = SOURCE_ROOT; };
+		72AE6AC268A5FAD1849D1D70 /* effects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = effects.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = opts.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B49F64A613710ABA8768EF77 /* skia_lib.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = skia_lib.gyp; sourceTree = "<group>"; };
+		BEDD64F4088F81DD4DA0FD67 /* images.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = images.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CC6D1AA71E893CE0EF4EA9C9 /* utils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = utils.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D6821A24FD142D35CC9DC847 /* sfnt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = sfnt.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E7606E550DF9A6BBE1114B97 /* core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		F839B3D3FC5AE357B53E70AA /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../../build/common.gypi; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		60AAD16D041CC0AB4DEA789E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1291ADF1C7C35A443952B15 /* libskia_opts.a */,
+				FFCCDB2D758B3C71331C730D /* libskia_opts_ssse3.a */,
+				38F970F566F633CB706A5316 /* libskia_opts_neon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3C3C90C7D2AC356BA816DB = {
+			isa = PBXGroup;
+			children = (
+				EAF8F2999929D808F8A7C216 /* Projects */,
+				A06EC9C1E0403D60E0EF488C /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		96E5110250B2C7FE79235A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99549032EC60CC83B4C297E6 /* libskia_sfnt.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06EC9C1E0403D60E0EF488C /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				F839B3D3FC5AE357B53E70AA /* common.gypi */,
+				B49F64A613710ABA8768EF77 /* skia_lib.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		AD36A7AC764C98DAFE591AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898FCED1EF2024D47BD31AC1 /* libskia_utils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4707AE4C45153FE035C40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED965B37F9B0A42D0CA3D4 /* libskia_effects.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FD3FA04291B7814CDA8E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB75A74A4D7CC1214F8FA2A /* libskia_images.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7AABF216401639CF8BE2226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29EE303A6701FA28143AABE /* libskia_core.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC0B8B450D173CAFFCD3118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A3E7917EC150DB5FFBECC7 /* libskia_ports.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF8F2999929D808F8A7C216 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				E7606E550DF9A6BBE1114B97 /* core.xcodeproj */,
+				72AE6AC268A5FAD1849D1D70 /* effects.xcodeproj */,
+				BEDD64F4088F81DD4DA0FD67 /* images.xcodeproj */,
+				A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */,
+				53DA39C9AACF725BC7F049A3 /* ports.xcodeproj */,
+				D6821A24FD142D35CC9DC847 /* sfnt.xcodeproj */,
+				CC6D1AA71E893CE0EF4EA9C9 /* utils.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E8147C4961A4738C457A9F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 92567A612FBBE10E951DEC7C /* Build configuration list for PBXProject "skia_lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 6E3C3C90C7D2AC356BA816DB;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7AABF216401639CF8BE2226 /* Products */;
+					ProjectRef = E7606E550DF9A6BBE1114B97 /* core.xcodeproj */;
+				},
+				{
+					ProductGroup = DE4707AE4C45153FE035C40D /* Products */;
+					ProjectRef = 72AE6AC268A5FAD1849D1D70 /* effects.xcodeproj */;
+				},
+				{
+					ProductGroup = E2FD3FA04291B7814CDA8E8A /* Products */;
+					ProjectRef = BEDD64F4088F81DD4DA0FD67 /* images.xcodeproj */;
+				},
+				{
+					ProductGroup = 60AAD16D041CC0AB4DEA789E /* Products */;
+					ProjectRef = A28EE3C1EBF71D4DB89BB620 /* opts.xcodeproj */;
+				},
+				{
+					ProductGroup = EAC0B8B450D173CAFFCD3118 /* Products */;
+					ProjectRef = 53DA39C9AACF725BC7F049A3 /* ports.xcodeproj */;
+				},
+				{
+					ProductGroup = 96E5110250B2C7FE79235A62 /* Products */;
+					ProjectRef = D6821A24FD142D35CC9DC847 /* sfnt.xcodeproj */;
+				},
+				{
+					ProductGroup = AD36A7AC764C98DAFE591AA4 /* Products */;
+					ProjectRef = CC6D1AA71E893CE0EF4EA9C9 /* utils.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FAACAD0576FEAB6DC6993FBC /* skia_lib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		38F970F566F633CB706A5316 /* libskia_opts_neon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_opts_neon.a;
+			remoteRef = B79001C96150923455B78F00 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49A3E7917EC150DB5FFBECC7 /* libskia_ports.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_ports.a;
+			remoteRef = 01DDB247A898DF391A69A151 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		898FCED1EF2024D47BD31AC1 /* libskia_utils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_utils.a;
+			remoteRef = 6AC48878BC0CCB0F56D856FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		99549032EC60CC83B4C297E6 /* libskia_sfnt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_sfnt.a;
+			remoteRef = 89C9A42FD69241A90B6C290D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1291ADF1C7C35A443952B15 /* libskia_opts.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_opts.a;
+			remoteRef = EABCFB2E7F9E7E7278D08368 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C29EE303A6701FA28143AABE /* libskia_core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_core.a;
+			remoteRef = C68F82A3E84ED7565A60D344 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5ED965B37F9B0A42D0CA3D4 /* libskia_effects.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_effects.a;
+			remoteRef = ADA063417345A81FDD4C263D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FCB75A74A4D7CC1214F8FA2A /* libskia_images.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_images.a;
+			remoteRef = 5471CE4DC76308F54FB8628B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFCCDB2D758B3C71331C730D /* libskia_opts_ssse3.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libskia_opts_ssse3.a;
+			remoteRef = 75CB90B517ED21EF513B1A88 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		4C37A6FA0DC01492484574A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = images;
+			targetProxy = D79B3685C08F446BAE03927C /* PBXContainerItemProxy */;
+		};
+		4CC3E20EE06C3EE1238BDA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = core;
+			targetProxy = EB941C701833508FDA617B46 /* PBXContainerItemProxy */;
+		};
+		60BFD62A6CF9D24AF3D7E52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ports;
+			targetProxy = 630841D4207D34CB6813A8F5 /* PBXContainerItemProxy */;
+		};
+		BE9B025F8D7A6C5409D45E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sfnt;
+			targetProxy = D00196FD4339307A0EC0988A /* PBXContainerItemProxy */;
+		};
+		DDA459F46BEDB7730489EEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = opts;
+			targetProxy = 77463E9677B5B06CDF51B128 /* PBXContainerItemProxy */;
+		};
+		E475AD6DBA58B91DABF2BCE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = utils;
+			targetProxy = 77F64C4A4EB7D135B4833DA1 /* PBXContainerItemProxy */;
+		};
+		F961F8BEE81EDDEA1E021F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = effects;
+			targetProxy = B49937F08B4471BD158BB561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68FA7D758FF814D02B4A1114 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		95EACDE4DD0F1FB3CF7B4F1C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					config,
+					../include/config,
+					../include/core,
+					../include/lazy,
+					../include/pathops,
+					../include/pipe,
+					ext,
+					../include/effects,
+					../include/images,
+					../third_party/externals/libjpeg,
+					../include/ports,
+					../src/sfnt,
+					../include/utils,
+				);
+				PRODUCT_NAME = skia_lib;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92567A612FBBE10E951DEC7C /* Build configuration list for PBXProject "skia_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FA7D758FF814D02B4A1114 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		D30EA780617D0A45F3155EDA /* Build configuration list for PBXAggregateTarget "skia_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EACDE4DD0F1FB3CF7B4F1C /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8147C4961A4738C457A9F9F /* Project object */;
+}

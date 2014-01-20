@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BAF7C21E88C97C2AAA44AC /* SkMatrixConvolutionImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3066AAB9B45EA9F91801D6D /* SkMatrixConvolutionImageFilter.cpp */; };
+		029C5E736C5D2DC957461624 /* SkBlurImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E838DC53190E88EBB67EC8F /* SkBlurImageFilter.cpp */; };
+		0845FA5851B110D8445E464B /* SkPixelXorXfermode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839253693E7169CB6F743426 /* SkPixelXorXfermode.cpp */; };
+		0B06C0CD7260CB46F904CD0B /* SkTableMaskFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4274E0F3805E2220A1C768E /* SkTableMaskFilter.cpp */; };
+		0B834C4D83C9D944CE15B4AC /* SkColorFilters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6B33A460010890D5C733802 /* SkColorFilters.cpp */; };
+		0CD559B0DA90CB443C910DF6 /* SkPictureImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EF249213E11236C85C769EC /* SkPictureImageFilter.cpp */; };
+		156E14CE5C3CFDD2ED7CEF98 /* SkBlurMaskFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E76FB83A008B09079B654C /* SkBlurMaskFilter.cpp */; };
+		1587CB112CC55DD1CCDA8BA3 /* SkPaintFlagsDrawFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B49B98A4E3D1EC5F85C5C25 /* SkPaintFlagsDrawFilter.cpp */; };
+		18D80BDD85B42E1538F20FC6 /* SkTileImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232A4CB5C2E145D62D563998 /* SkTileImageFilter.cpp */; };
+		1C398D5E2FC6487B29178329 /* SkTransparentShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D801CA03E5954304005860D /* SkTransparentShader.cpp */; };
+		23DC7701F19E52BA8D25B2C8 /* Sk2DPathEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C31F3935A7BFC2808E49787D /* Sk2DPathEffect.cpp */; };
+		2513F655BE6970549C9D82FC /* SkColorMatrixFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E421AFF2DAB51C87A06B67CD /* SkColorMatrixFilter.cpp */; };
+		25D6E3539661B0A6C503BB49 /* SkEmbossMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E3845B908BE71CC22AC5D4 /* SkEmbossMask.cpp */; };
+		2B0C9EC06571F54AFF9DABCA /* SkBitmapSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B38CEC61481C6EDF95028A7B /* SkBitmapSource.cpp */; };
+		32C43481D153EBC0C44EE52B /* SkBicubicImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1459CD47318C05D3D480DB5 /* SkBicubicImageFilter.cpp */; };
+		3F83321EB238F96E22296AFB /* SkColorMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9D7C7635EB3D4A5EAF64F9A /* SkColorMatrix.cpp */; };
+		4AFE19110619F1253EB01297 /* SkMagnifierImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9BDBBE12D6D762619F476 /* SkMagnifierImageFilter.cpp */; };
+		4E035B016F34D30301F56D57 /* SkTwoPointConicalGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAEEDC67B7A4D82A0AEFB0CA /* SkTwoPointConicalGradient.cpp */; };
+		550DAF2A64D3D8ACF9C95BBE /* SkBitmapCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F893B4C26F175B356E2EA8 /* SkBitmapCache.cpp */; };
+		561A8BC48FDF7BA371A1E423 /* SkXfermodeImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261C153D8D71CD0D2F0431D0 /* SkXfermodeImageFilter.cpp */; };
+		5828DAF42B807BDD5C8457B8 /* SkLerpXfermode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB055D570ED67BC4EE54486 /* SkLerpXfermode.cpp */; };
+		58B9F7275DC5592C747F8A2E /* SkLightingImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB8BA6ED710455C2CA01BE0F /* SkLightingImageFilter.cpp */; };
+		58D127A0A17E8BCAF2DEF48F /* SkLumaColorFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 792CA98C6CC7BC4A8A90ADD8 /* SkLumaColorFilter.cpp */; };
+		5AA283A94576EB6F16C1EAF5 /* SkBlurMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC26DABE564FB5116233FFA /* SkBlurMask.cpp */; };
+		709867EFC1617CABE06B826F /* SkAlphaThresholdFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2B4B7EA0B5A86B3366F21CE /* SkAlphaThresholdFilter.cpp */; };
+		75756E08096F0BA491037507 /* SkDiscretePathEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89915EB053F2E09D60516CA7 /* SkDiscretePathEffect.cpp */; };
+		76C64967E6C6C9281C19108B /* SkPorterDuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 269ADE31C7C023D6CF17DC06 /* SkPorterDuff.cpp */; };
+		7DC726F562632458F97E1C3D /* SkTestImageFilters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C292C83CCE48A7CF0802B471 /* SkTestImageFilters.cpp */; };
+		7DC7E57F53596305AADD62DC /* SkGpuBlurUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98307529E259EEA62BAA6891 /* SkGpuBlurUtils.cpp */; };
+		7E9F9942B0D484C2B398ABB8 /* SkMorphologyImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC813944B98810A83E07165 /* SkMorphologyImageFilter.cpp */; };
+		89A36A83C6ABE0B5416D4057 /* SkEmbossMaskFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4059435C0D7F90460752E691 /* SkEmbossMaskFilter.cpp */; };
+		9AD26AB392D5ED449D7532C8 /* SkRectShaderImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBADE08C8ACE336603AC011 /* SkRectShaderImageFilter.cpp */; };
+		9C9AF8F8C2A3A21CEBC91E2E /* SkStippleMaskFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 064D479B6C463E1D7F51A6E7 /* SkStippleMaskFilter.cpp */; };
+		A1F380E39C3B46634D66373D /* SkClampRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 602440DD2213E75C0ECC454C /* SkClampRange.cpp */; };
+		A4BD7B355F7AED4EAE51DFF5 /* SkPerlinNoiseShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32873DBAE9EDA0912C00B575 /* SkPerlinNoiseShader.cpp */; };
+		A4C512DC19983F936A500BEC /* SkLayerRasterizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EC77C8387F23900AC600D1B /* SkLayerRasterizer.cpp */; };
+		A4F185346B4F33BE3B96B9D6 /* SkLayerDrawLooper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E181A21793CBE7875576ED7E /* SkLayerDrawLooper.cpp */; };
+		AE8F2A1740CCFAA984EDF680 /* SkOffsetImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA437B54B131444DA5205256 /* SkOffsetImageFilter.cpp */; };
+		AF44F8027854904468CA1E2D /* SkDisplacementMapEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C3707C0D39C6908D787926 /* SkDisplacementMapEffect.cpp */; };
+		B5EDF37A009E92EBC2F3D867 /* SkColorFilterImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D514A13495DDBCA40E48AE4F /* SkColorFilterImageFilter.cpp */; };
+		B87B5862FFE6F4BEF4AEB3C3 /* SkTableColorFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 163F1B66B4EC4D2DDC1683D6 /* SkTableColorFilter.cpp */; };
+		BFE3E0EDDA159A74B50E0476 /* SkRadialGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA95E82C919E9D46227F412E /* SkRadialGradient.cpp */; };
+		C382A502B2CED21E71FF4012 /* SkAvoidXfermode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB61BE68A4D0E3590030A1 /* SkAvoidXfermode.cpp */; };
+		C4BEEF2AB0B92E0EA2B6CABC /* SkResizeImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 945BE8CA9EF9ED8E1F04D721 /* SkResizeImageFilter.cpp */; };
+		C52439413883C6EB22F2075F /* SkBlurDrawLooper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E5674A1D7C9944984806E02 /* SkBlurDrawLooper.cpp */; };
+		CAECC22F343A7B391DEB3CB6 /* SkArithmeticMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7008C27EA25A893434F3ADB /* SkArithmeticMode.cpp */; };
+		CAF8FC6CEE8FEA908D557158 /* Sk1DPathEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 069DBF139E52B544DDECF80C /* Sk1DPathEffect.cpp */; };
+		D043B57F224F3A1B5F956631 /* SkComposeImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5438F29E677386781A295EB /* SkComposeImageFilter.cpp */; };
+		D57A0AAFC9841D4F2FD0B807 /* SkDashPathEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDADF913EF243CD1F9B2C69B /* SkDashPathEffect.cpp */; };
+		D5D277F671F5938D2A153DE8 /* SkDropShadowImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3683C9CED5D1A5D9B1D370F /* SkDropShadowImageFilter.cpp */; };
+		DD0FCF3308DE7945EBF69EC0 /* SkTwoPointRadialGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4683CF4DC1E877B80EE971B4 /* SkTwoPointRadialGradient.cpp */; };
+		DEEDFDC9CE35E99E4D77FA2C /* SkGradientShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BC977861A6EF80A409D207 /* SkGradientShader.cpp */; };
+		ED4A883E35C65D449B194996 /* SkMergeImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF34E51D96B68E9F9BDFC775 /* SkMergeImageFilter.cpp */; };
+		F46FB1465B2ABE04241C3F34 /* SkSweepGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693D533DF7CD55977356FDD6 /* SkSweepGradient.cpp */; };
+		F54AAB97F9CB4F83AD37FC62 /* SkKernel33MaskFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5565F3C1CEDCB98919A527A /* SkKernel33MaskFilter.cpp */; };
+		F5BEC331182B4FC30A2FF7BB /* SkLinearGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926DECF79B9A0A9FDFB732DA /* SkLinearGradient.cpp */; };
+		F7B6D2AD50F171BF2DB587FB /* SkCornerPathEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F55CE06E5E9CB326707B266A /* SkCornerPathEffect.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		064D479B6C463E1D7F51A6E7 /* SkStippleMaskFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkStippleMaskFilter.cpp; sourceTree = "<group>"; };
+		069DBF139E52B544DDECF80C /* Sk1DPathEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sk1DPathEffect.cpp; sourceTree = "<group>"; };
+		06E831EA95B8595CA0FB8545 /* SkEmbossMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkEmbossMask.h; sourceTree = "<group>"; };
+		0F181765358E1FD05D622DFE /* SkRadialGradient_Table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkRadialGradient_Table.h; sourceTree = "<group>"; };
+		154906B12A01D70183DAC001 /* SkColorMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkColorMatrix.h; sourceTree = "<group>"; };
+		163F1B66B4EC4D2DDC1683D6 /* SkTableColorFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTableColorFilter.cpp; sourceTree = "<group>"; };
+		16C53328505872BF8BD7155F /* SkBlurMaskFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkBlurMaskFilter.h; sourceTree = "<group>"; };
+		1DCC3BB91CE824B626ED453F /* SkLumaColorFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkLumaColorFilter.h; sourceTree = "<group>"; };
+		232A4CB5C2E145D62D563998 /* SkTileImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTileImageFilter.cpp; sourceTree = "<group>"; };
+		24F893B4C26F175B356E2EA8 /* SkBitmapCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBitmapCache.cpp; sourceTree = "<group>"; };
+		261C153D8D71CD0D2F0431D0 /* SkXfermodeImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkXfermodeImageFilter.cpp; sourceTree = "<group>"; };
+		269ADE31C7C023D6CF17DC06 /* SkPorterDuff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPorterDuff.cpp; sourceTree = "<group>"; };
+		2875376F650AACA4509AD1A4 /* SkSweepGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkSweepGradient.h; sourceTree = "<group>"; };
+		2DA8956B0E85F1D525C52B37 /* SkGpuBlurUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkGpuBlurUtils.h; sourceTree = "<group>"; };
+		32873DBAE9EDA0912C00B575 /* SkPerlinNoiseShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPerlinNoiseShader.cpp; sourceTree = "<group>"; };
+		32C77B7B5C1D01711C768301 /* SkArithmeticMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkArithmeticMode.h; sourceTree = "<group>"; };
+		3CD2D7CD41E75FE1E32710C5 /* SkBlurDrawLooper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkBlurDrawLooper.h; sourceTree = "<group>"; };
+		3DBADE08C8ACE336603AC011 /* SkRectShaderImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkRectShaderImageFilter.cpp; sourceTree = "<group>"; };
+		4059435C0D7F90460752E691 /* SkEmbossMaskFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkEmbossMaskFilter.cpp; sourceTree = "<group>"; };
+		4683CF4DC1E877B80EE971B4 /* SkTwoPointRadialGradient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTwoPointRadialGradient.cpp; sourceTree = "<group>"; };
+		4E5674A1D7C9944984806E02 /* SkBlurDrawLooper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBlurDrawLooper.cpp; sourceTree = "<group>"; };
+		4E76E47E0C065B1C831DF498 /* SkLerpXfermode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkLerpXfermode.h; sourceTree = "<group>"; };
+		502E1A230A63294EAC8073CB /* SkGradientShaderPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkGradientShaderPriv.h; sourceTree = "<group>"; };
+		53F1AE9CB442AB8868A3C8B8 /* SkAvoidXfermode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkAvoidXfermode.h; sourceTree = "<group>"; };
+		5505BC8508503D642F66A482 /* SkClampRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkClampRange.h; sourceTree = "<group>"; };
+		58F5798F794C866A59DEB948 /* SkTileImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTileImageFilter.h; sourceTree = "<group>"; };
+		5BC813944B98810A83E07165 /* SkMorphologyImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMorphologyImageFilter.cpp; sourceTree = "<group>"; };
+		5E8954CC32FFD26027D5DA99 /* SkColorFilterImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkColorFilterImageFilter.h; sourceTree = "<group>"; };
+		602440DD2213E75C0ECC454C /* SkClampRange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkClampRange.cpp; sourceTree = "<group>"; };
+		60BC977861A6EF80A409D207 /* SkGradientShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkGradientShader.cpp; sourceTree = "<group>"; };
+		60C3707C0D39C6908D787926 /* SkDisplacementMapEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDisplacementMapEffect.cpp; sourceTree = "<group>"; };
+		611A13EF6ECE571E1A5216ED /* SkGradientShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkGradientShader.h; sourceTree = "<group>"; };
+		693D533DF7CD55977356FDD6 /* SkSweepGradient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkSweepGradient.cpp; sourceTree = "<group>"; };
+		6A41E37524AA6D061208266F /* SkOffsetImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkOffsetImageFilter.h; sourceTree = "<group>"; };
+		6B5DB8D0162646224450E1F5 /* SkEmbossMaskFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkEmbossMaskFilter.h; sourceTree = "<group>"; };
+		6DBB61BE68A4D0E3590030A1 /* SkAvoidXfermode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkAvoidXfermode.cpp; sourceTree = "<group>"; };
+		6DC6F336F8DC86FC01AFEC6B /* SkDisplacementMapEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDisplacementMapEffect.h; sourceTree = "<group>"; };
+		6EC77C8387F23900AC600D1B /* SkLayerRasterizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkLayerRasterizer.cpp; sourceTree = "<group>"; };
+		6F36BECD6EFAB170F590DF13 /* SkLinearGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkLinearGradient.h; sourceTree = "<group>"; };
+		792CA98C6CC7BC4A8A90ADD8 /* SkLumaColorFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkLumaColorFilter.cpp; sourceTree = "<group>"; };
+		7B49B98A4E3D1EC5F85C5C25 /* SkPaintFlagsDrawFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPaintFlagsDrawFilter.cpp; sourceTree = "<group>"; };
+		7CED347AD61C23CA8DA22FBA /* SkDrawExtraPathEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDrawExtraPathEffect.h; sourceTree = "<group>"; };
+		7D801CA03E5954304005860D /* SkTransparentShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTransparentShader.cpp; sourceTree = "<group>"; };
+		7DCA81CEBAC9E40228F2F40C /* SkBlurMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkBlurMask.h; sourceTree = "<group>"; };
+		7E838DC53190E88EBB67EC8F /* SkBlurImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBlurImageFilter.cpp; sourceTree = "<group>"; };
+		839253693E7169CB6F743426 /* SkPixelXorXfermode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPixelXorXfermode.cpp; sourceTree = "<group>"; };
+		84FA7E684C1446C19EC98ED3 /* SkTwoPointRadialGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTwoPointRadialGradient.h; sourceTree = "<group>"; };
+		89915EB053F2E09D60516CA7 /* SkDiscretePathEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDiscretePathEffect.cpp; sourceTree = "<group>"; };
+		8BFF1908D28F81491DE4F27B /* SkRadialGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkRadialGradient.h; sourceTree = "<group>"; };
+		8C838F790581A14008ECC334 /* SkTransparentShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTransparentShader.h; sourceTree = "<group>"; };
+		8DCBD54D6C8A408C6AE357FC /* SkPaintFlagsDrawFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPaintFlagsDrawFilter.h; sourceTree = "<group>"; };
+		926DECF79B9A0A9FDFB732DA /* SkLinearGradient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkLinearGradient.cpp; sourceTree = "<group>"; };
+		928B2990871BC65326651BB6 /* SkKernel33MaskFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkKernel33MaskFilter.h; sourceTree = "<group>"; };
+		933354B5157FEBAE42200A3F /* libskia_effects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libskia_effects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		945BE8CA9EF9ED8E1F04D721 /* SkResizeImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkResizeImageFilter.cpp; sourceTree = "<group>"; };
+		96F7973AD635FC0FE883013F /* SkMorphologyImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkMorphologyImageFilter.h; sourceTree = "<group>"; };
+		98307529E259EEA62BAA6891 /* SkGpuBlurUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkGpuBlurUtils.cpp; sourceTree = "<group>"; };
+		9CC00D381A9F58384C237233 /* SkAlphaThresholdFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkAlphaThresholdFilter.h; sourceTree = "<group>"; };
+		9DE9BDBBE12D6D762619F476 /* SkMagnifierImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMagnifierImageFilter.cpp; sourceTree = "<group>"; };
+		9DF0C1E2F7C2515A9ED7C6CA /* SkPixelXorXfermode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPixelXorXfermode.h; sourceTree = "<group>"; };
+		9EF249213E11236C85C769EC /* SkPictureImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPictureImageFilter.cpp; sourceTree = "<group>"; };
+		A25273FE3130B846A2066286 /* SkStippleMaskFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkStippleMaskFilter.h; sourceTree = "<group>"; };
+		A2A2A70916E4C538D0F9CF53 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../../build/common.gypi; sourceTree = "<group>"; };
+		A2B4B7EA0B5A86B3366F21CE /* SkAlphaThresholdFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkAlphaThresholdFilter.cpp; sourceTree = "<group>"; };
+		A2D16E8CD0A00168ECEF3EA8 /* SkBlurImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkBlurImageFilter.h; sourceTree = "<group>"; };
+		A39AA1F708B892938423030D /* SkRectShaderImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkRectShaderImageFilter.h; sourceTree = "<group>"; };
+		A4028C32C82EEA498C4DF781 /* SkLayerRasterizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkLayerRasterizer.h; sourceTree = "<group>"; };
+		A4274E0F3805E2220A1C768E /* SkTableMaskFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTableMaskFilter.cpp; sourceTree = "<group>"; };
+		A7008C27EA25A893434F3ADB /* SkArithmeticMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkArithmeticMode.cpp; sourceTree = "<group>"; };
+		AA437B54B131444DA5205256 /* SkOffsetImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkOffsetImageFilter.cpp; sourceTree = "<group>"; };
+		AB5D56C89D72609A8A9ECACE /* SkDashPathEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDashPathEffect.h; sourceTree = "<group>"; };
+		AB8BA6ED710455C2CA01BE0F /* SkLightingImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkLightingImageFilter.cpp; sourceTree = "<group>"; };
+		AE3F41D4FFBC6BF8667AE92C /* SkLayerDrawLooper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkLayerDrawLooper.h; sourceTree = "<group>"; };
+		AF34E51D96B68E9F9BDFC775 /* SkMergeImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMergeImageFilter.cpp; sourceTree = "<group>"; };
+		AF4262A7CED87EF5A998521C /* SkTableMaskFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTableMaskFilter.h; sourceTree = "<group>"; };
+		B38CEC61481C6EDF95028A7B /* SkBitmapSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBitmapSource.cpp; sourceTree = "<group>"; };
+		B6B33A460010890D5C733802 /* SkColorFilters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkColorFilters.cpp; sourceTree = "<group>"; };
+		B6D734B591831646F912E894 /* SkEmbossMask_Table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkEmbossMask_Table.h; sourceTree = "<group>"; };
+		B9E76FB83A008B09079B654C /* SkBlurMaskFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBlurMaskFilter.cpp; sourceTree = "<group>"; };
+		BC1B52077C1D65662B7947B2 /* effects.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = effects.gyp; sourceTree = "<group>"; };
+		BCED8A0F05D138C56B3F980A /* effects.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = effects.gypi; sourceTree = "<group>"; };
+		BDADF913EF243CD1F9B2C69B /* SkDashPathEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDashPathEffect.cpp; sourceTree = "<group>"; };
+		BE362ED3668E7562FD3E78EE /* Sk2DPathEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sk2DPathEffect.h; sourceTree = "<group>"; };
+		BE86D81BBB887D2D933EFB12 /* SkDiscretePathEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDiscretePathEffect.h; sourceTree = "<group>"; };
+		C292C83CCE48A7CF0802B471 /* SkTestImageFilters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTestImageFilters.cpp; sourceTree = "<group>"; };
+		C31F3935A7BFC2808E49787D /* Sk2DPathEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sk2DPathEffect.cpp; sourceTree = "<group>"; };
+		C6F16C81E129C6B6E0799833 /* SkTwoPointConicalGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTwoPointConicalGradient.h; sourceTree = "<group>"; };
+		C78109FAAB73313F9094FEFD /* SkLightingImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkLightingImageFilter.h; sourceTree = "<group>"; };
+		D321B47A5A990EA4CAEB9F86 /* effects.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = effects.gypi; sourceTree = "<group>"; };
+		D3683C9CED5D1A5D9B1D370F /* SkDropShadowImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDropShadowImageFilter.cpp; sourceTree = "<group>"; };
+		D514A13495DDBCA40E48AE4F /* SkColorFilterImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkColorFilterImageFilter.cpp; sourceTree = "<group>"; };
+		D5E3845B908BE71CC22AC5D4 /* SkEmbossMask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkEmbossMask.cpp; sourceTree = "<group>"; };
+		D6FA5D00F7AA4FCF2C0A186F /* SkPerlinNoiseShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPerlinNoiseShader.h; sourceTree = "<group>"; };
+		D71CB01DFB24120E1B3CC01C /* SkDropShadowImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDropShadowImageFilter.h; sourceTree = "<group>"; };
+		DA95E82C919E9D46227F412E /* SkRadialGradient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkRadialGradient.cpp; sourceTree = "<group>"; };
+		DAEEDC67B7A4D82A0AEFB0CA /* SkTwoPointConicalGradient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTwoPointConicalGradient.cpp; sourceTree = "<group>"; };
+		DBC26DABE564FB5116233FFA /* SkBlurMask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBlurMask.cpp; sourceTree = "<group>"; };
+		E12F5A568013BE31F1E219A2 /* Sk1DPathEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sk1DPathEffect.h; sourceTree = "<group>"; };
+		E1459CD47318C05D3D480DB5 /* SkBicubicImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkBicubicImageFilter.cpp; sourceTree = "<group>"; };
+		E15ED98139E959A0CDBD7443 /* SkXfermodeImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkXfermodeImageFilter.h; sourceTree = "<group>"; };
+		E181A21793CBE7875576ED7E /* SkLayerDrawLooper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkLayerDrawLooper.cpp; sourceTree = "<group>"; };
+		E421AFF2DAB51C87A06B67CD /* SkColorMatrixFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkColorMatrixFilter.cpp; sourceTree = "<group>"; };
+		E66AE41BE53EF4F541007C88 /* SkCornerPathEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkCornerPathEffect.h; sourceTree = "<group>"; };
+		E9B7D3C12E1999C0F7E6CF7A /* SkBitmapCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkBitmapCache.h; sourceTree = "<group>"; };
+		E9D7C7635EB3D4A5EAF64F9A /* SkColorMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkColorMatrix.cpp; sourceTree = "<group>"; };
+		EBA82A8151011A1A5A537F4D /* SkPorterDuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkPorterDuff.h; sourceTree = "<group>"; };
+		ED0EDFB838C1F3287F8BF983 /* SkBitmapSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkBitmapSource.h; sourceTree = "<group>"; };
+		F3066AAB9B45EA9F91801D6D /* SkMatrixConvolutionImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMatrixConvolutionImageFilter.cpp; sourceTree = "<group>"; };
+		F5438F29E677386781A295EB /* SkComposeImageFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkComposeImageFilter.cpp; sourceTree = "<group>"; };
+		F5565F3C1CEDCB98919A527A /* SkKernel33MaskFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkKernel33MaskFilter.cpp; sourceTree = "<group>"; };
+		F55CE06E5E9CB326707B266A /* SkCornerPathEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkCornerPathEffect.cpp; sourceTree = "<group>"; };
+		FA8CC5723D51A3ACEEFF9A3C /* SkTableColorFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkTableColorFilter.h; sourceTree = "<group>"; };
+		FA9D6A2549D9645458401AEA /* SkColorMatrixFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkColorMatrixFilter.h; sourceTree = "<group>"; };
+		FAB055D570ED67BC4EE54486 /* SkLerpXfermode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkLerpXfermode.cpp; sourceTree = "<group>"; };
+		FD28E57131EC3575DA0F2DAE /* SkMagnifierImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkMagnifierImageFilter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A8ABD84AF09A50FE213CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6214D591277DC398664244 /* include/effects */ = {
+			isa = PBXGroup;
+			children = (
+				E12F5A568013BE31F1E219A2 /* Sk1DPathEffect.h */,
+				BE362ED3668E7562FD3E78EE /* Sk2DPathEffect.h */,
+				9CC00D381A9F58384C237233 /* SkAlphaThresholdFilter.h */,
+				32C77B7B5C1D01711C768301 /* SkArithmeticMode.h */,
+				53F1AE9CB442AB8868A3C8B8 /* SkAvoidXfermode.h */,
+				ED0EDFB838C1F3287F8BF983 /* SkBitmapSource.h */,
+				3CD2D7CD41E75FE1E32710C5 /* SkBlurDrawLooper.h */,
+				A2D16E8CD0A00168ECEF3EA8 /* SkBlurImageFilter.h */,
+				16C53328505872BF8BD7155F /* SkBlurMaskFilter.h */,
+				5E8954CC32FFD26027D5DA99 /* SkColorFilterImageFilter.h */,
+				154906B12A01D70183DAC001 /* SkColorMatrix.h */,
+				FA9D6A2549D9645458401AEA /* SkColorMatrixFilter.h */,
+				E66AE41BE53EF4F541007C88 /* SkCornerPathEffect.h */,
+				AB5D56C89D72609A8A9ECACE /* SkDashPathEffect.h */,
+				BE86D81BBB887D2D933EFB12 /* SkDiscretePathEffect.h */,
+				6DC6F336F8DC86FC01AFEC6B /* SkDisplacementMapEffect.h */,
+				7CED347AD61C23CA8DA22FBA /* SkDrawExtraPathEffect.h */,
+				D71CB01DFB24120E1B3CC01C /* SkDropShadowImageFilter.h */,
+				6B5DB8D0162646224450E1F5 /* SkEmbossMaskFilter.h */,
+				611A13EF6ECE571E1A5216ED /* SkGradientShader.h */,
+				928B2990871BC65326651BB6 /* SkKernel33MaskFilter.h */,
+				AE3F41D4FFBC6BF8667AE92C /* SkLayerDrawLooper.h */,
+				A4028C32C82EEA498C4DF781 /* SkLayerRasterizer.h */,
+				4E76E47E0C065B1C831DF498 /* SkLerpXfermode.h */,
+				C78109FAAB73313F9094FEFD /* SkLightingImageFilter.h */,
+				1DCC3BB91CE824B626ED453F /* SkLumaColorFilter.h */,
+				FD28E57131EC3575DA0F2DAE /* SkMagnifierImageFilter.h */,
+				96F7973AD635FC0FE883013F /* SkMorphologyImageFilter.h */,
+				6A41E37524AA6D061208266F /* SkOffsetImageFilter.h */,
+				8DCBD54D6C8A408C6AE357FC /* SkPaintFlagsDrawFilter.h */,
+				D6FA5D00F7AA4FCF2C0A186F /* SkPerlinNoiseShader.h */,
+				9DF0C1E2F7C2515A9ED7C6CA /* SkPixelXorXfermode.h */,
+				EBA82A8151011A1A5A537F4D /* SkPorterDuff.h */,
+				A39AA1F708B892938423030D /* SkRectShaderImageFilter.h */,
+				A25273FE3130B846A2066286 /* SkStippleMaskFilter.h */,
+				FA8CC5723D51A3ACEEFF9A3C /* SkTableColorFilter.h */,
+				AF4262A7CED87EF5A998521C /* SkTableMaskFilter.h */,
+				58F5798F794C866A59DEB948 /* SkTileImageFilter.h */,
+				8C838F790581A14008ECC334 /* SkTransparentShader.h */,
+				E15ED98139E959A0CDBD7443 /* SkXfermodeImageFilter.h */,
+			);
+			path = include/effects;
+			sourceTree = "<group>";
+		};
+		3108CB1B0FFCB6B229DDF7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933354B5157FEBAE42200A3F /* libskia_effects.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728334D475DA3CAF60837104 /* gradients */ = {
+			isa = PBXGroup;
+			children = (
+				24F893B4C26F175B356E2EA8 /* SkBitmapCache.cpp */,
+				E9B7D3C12E1999C0F7E6CF7A /* SkBitmapCache.h */,
+				602440DD2213E75C0ECC454C /* SkClampRange.cpp */,
+				5505BC8508503D642F66A482 /* SkClampRange.h */,
+				60BC977861A6EF80A409D207 /* SkGradientShader.cpp */,
+				502E1A230A63294EAC8073CB /* SkGradientShaderPriv.h */,
+				926DECF79B9A0A9FDFB732DA /* SkLinearGradient.cpp */,
+				6F36BECD6EFAB170F590DF13 /* SkLinearGradient.h */,
+				DA95E82C919E9D46227F412E /* SkRadialGradient.cpp */,
+				8BFF1908D28F81491DE4F27B /* SkRadialGradient.h */,
+				0F181765358E1FD05D622DFE /* SkRadialGradient_Table.h */,
+				693D533DF7CD55977356FDD6 /* SkSweepGradient.cpp */,
+				2875376F650AACA4509AD1A4 /* SkSweepGradient.h */,
+				DAEEDC67B7A4D82A0AEFB0CA /* SkTwoPointConicalGradient.cpp */,
+				C6F16C81E129C6B6E0799833 /* SkTwoPointConicalGradient.h */,
+				4683CF4DC1E877B80EE971B4 /* SkTwoPointRadialGradient.cpp */,
+				84FA7E684C1446C19EC98ED3 /* SkTwoPointRadialGradient.h */,
+			);
+			path = gradients;
+			sourceTree = "<group>";
+		};
+		761CC73DFCA826821C7FD0B1 /* src/effects */ = {
+			isa = PBXGroup;
+			children = (
+				728334D475DA3CAF60837104 /* gradients */,
+				069DBF139E52B544DDECF80C /* Sk1DPathEffect.cpp */,
+				C31F3935A7BFC2808E49787D /* Sk2DPathEffect.cpp */,
+				A2B4B7EA0B5A86B3366F21CE /* SkAlphaThresholdFilter.cpp */,
+				A7008C27EA25A893434F3ADB /* SkArithmeticMode.cpp */,
+				6DBB61BE68A4D0E3590030A1 /* SkAvoidXfermode.cpp */,
+				E1459CD47318C05D3D480DB5 /* SkBicubicImageFilter.cpp */,
+				B38CEC61481C6EDF95028A7B /* SkBitmapSource.cpp */,
+				4E5674A1D7C9944984806E02 /* SkBlurDrawLooper.cpp */,
+				7E838DC53190E88EBB67EC8F /* SkBlurImageFilter.cpp */,
+				DBC26DABE564FB5116233FFA /* SkBlurMask.cpp */,
+				7DCA81CEBAC9E40228F2F40C /* SkBlurMask.h */,
+				B9E76FB83A008B09079B654C /* SkBlurMaskFilter.cpp */,
+				D514A13495DDBCA40E48AE4F /* SkColorFilterImageFilter.cpp */,
+				B6B33A460010890D5C733802 /* SkColorFilters.cpp */,
+				E9D7C7635EB3D4A5EAF64F9A /* SkColorMatrix.cpp */,
+				E421AFF2DAB51C87A06B67CD /* SkColorMatrixFilter.cpp */,
+				F5438F29E677386781A295EB /* SkComposeImageFilter.cpp */,
+				F55CE06E5E9CB326707B266A /* SkCornerPathEffect.cpp */,
+				BDADF913EF243CD1F9B2C69B /* SkDashPathEffect.cpp */,
+				89915EB053F2E09D60516CA7 /* SkDiscretePathEffect.cpp */,
+				60C3707C0D39C6908D787926 /* SkDisplacementMapEffect.cpp */,
+				D3683C9CED5D1A5D9B1D370F /* SkDropShadowImageFilter.cpp */,
+				D5E3845B908BE71CC22AC5D4 /* SkEmbossMask.cpp */,
+				06E831EA95B8595CA0FB8545 /* SkEmbossMask.h */,
+				4059435C0D7F90460752E691 /* SkEmbossMaskFilter.cpp */,
+				B6D734B591831646F912E894 /* SkEmbossMask_Table.h */,
+				98307529E259EEA62BAA6891 /* SkGpuBlurUtils.cpp */,
+				2DA8956B0E85F1D525C52B37 /* SkGpuBlurUtils.h */,
+				F5565F3C1CEDCB98919A527A /* SkKernel33MaskFilter.cpp */,
+				E181A21793CBE7875576ED7E /* SkLayerDrawLooper.cpp */,
+				6EC77C8387F23900AC600D1B /* SkLayerRasterizer.cpp */,
+				FAB055D570ED67BC4EE54486 /* SkLerpXfermode.cpp */,
+				AB8BA6ED710455C2CA01BE0F /* SkLightingImageFilter.cpp */,
+				792CA98C6CC7BC4A8A90ADD8 /* SkLumaColorFilter.cpp */,
+				9DE9BDBBE12D6D762619F476 /* SkMagnifierImageFilter.cpp */,
+				F3066AAB9B45EA9F91801D6D /* SkMatrixConvolutionImageFilter.cpp */,
+				AF34E51D96B68E9F9BDFC775 /* SkMergeImageFilter.cpp */,
+				5BC813944B98810A83E07165 /* SkMorphologyImageFilter.cpp */,
+				AA437B54B131444DA5205256 /* SkOffsetImageFilter.cpp */,
+				7B49B98A4E3D1EC5F85C5C25 /* SkPaintFlagsDrawFilter.cpp */,
+				32873DBAE9EDA0912C00B575 /* SkPerlinNoiseShader.cpp */,
+				9EF249213E11236C85C769EC /* SkPictureImageFilter.cpp */,
+				839253693E7169CB6F743426 /* SkPixelXorXfermode.cpp */,
+				269ADE31C7C023D6CF17DC06 /* SkPorterDuff.cpp */,
+				3DBADE08C8ACE336603AC011 /* SkRectShaderImageFilter.cpp */,
+				945BE8CA9EF9ED8E1F04D721 /* SkResizeImageFilter.cpp */,
+				064D479B6C463E1D7F51A6E7 /* SkStippleMaskFilter.cpp */,
+				163F1B66B4EC4D2DDC1683D6 /* SkTableColorFilter.cpp */,
+				A4274E0F3805E2220A1C768E /* SkTableMaskFilter.cpp */,
+				C292C83CCE48A7CF0802B471 /* SkTestImageFilters.cpp */,
+				232A4CB5C2E145D62D563998 /* SkTileImageFilter.cpp */,
+				7D801CA03E5954304005860D /* SkTransparentShader.cpp */,
+				261C153D8D71CD0D2F0431D0 /* SkXfermodeImageFilter.cpp */,
+			);
+			path = src/effects;
+			sourceTree = "<group>";
+		};
+		84A23E72063C390A2B8BA7C6 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2A70916E4C538D0F9CF53 /* common.gypi */,
+				BC1B52077C1D65662B7947B2 /* effects.gyp */,
+				BCED8A0F05D138C56B3F980A /* effects.gypi */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		8AF1CEF0406ED6A1279BBACE /* ../../../deps/skia */ = {
+			isa = PBXGroup;
+			children = (
+				2A6214D591277DC398664244 /* include/effects */,
+				761CC73DFCA826821C7FD0B1 /* src/effects */,
+			);
+			path = ../../../deps/skia;
+			sourceTree = "<group>";
+		};
+		D6B032A3BA6BDF10F55548BC = {
+			isa = PBXGroup;
+			children = (
+				E52589A61076C8F4A9CDB608 /* Source */,
+				3108CB1B0FFCB6B229DDF7F2 /* Products */,
+				84A23E72063C390A2B8BA7C6 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		E52589A61076C8F4A9CDB608 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1CEF0406ED6A1279BBACE /* ../../../deps/skia */,
+				D321B47A5A990EA4CAEB9F86 /* effects.gypi */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0EB02F40D8DAD92937C53E1 /* effects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E232F576F5264A26F8DF64D4 /* Build configuration list for PBXNativeTarget "effects" */;
+			buildPhases = (
+				4B8E5E01D32F3BDBB89FA344 /* Sources */,
+				86A8ABD84AF09A50FE213CE5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = effects;
+			productName = skia_effects;
+			productReference = 933354B5157FEBAE42200A3F /* libskia_effects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A777787BE1BBC6BF0F9E214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = CD92F9FE557267002484F590 /* Build configuration list for PBXProject "effects" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = D6B032A3BA6BDF10F55548BC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0EB02F40D8DAD92937C53E1 /* effects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8E5E01D32F3BDBB89FA344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8FC6CEE8FEA908D557158 /* Sk1DPathEffect.cpp in Sources */,
+				23DC7701F19E52BA8D25B2C8 /* Sk2DPathEffect.cpp in Sources */,
+				709867EFC1617CABE06B826F /* SkAlphaThresholdFilter.cpp in Sources */,
+				CAECC22F343A7B391DEB3CB6 /* SkArithmeticMode.cpp in Sources */,
+				C382A502B2CED21E71FF4012 /* SkAvoidXfermode.cpp in Sources */,
+				32C43481D153EBC0C44EE52B /* SkBicubicImageFilter.cpp in Sources */,
+				2B0C9EC06571F54AFF9DABCA /* SkBitmapSource.cpp in Sources */,
+				C52439413883C6EB22F2075F /* SkBlurDrawLooper.cpp in Sources */,
+				5AA283A94576EB6F16C1EAF5 /* SkBlurMask.cpp in Sources */,
+				029C5E736C5D2DC957461624 /* SkBlurImageFilter.cpp in Sources */,
+				156E14CE5C3CFDD2ED7CEF98 /* SkBlurMaskFilter.cpp in Sources */,
+				0B834C4D83C9D944CE15B4AC /* SkColorFilters.cpp in Sources */,
+				B5EDF37A009E92EBC2F3D867 /* SkColorFilterImageFilter.cpp in Sources */,
+				3F83321EB238F96E22296AFB /* SkColorMatrix.cpp in Sources */,
+				2513F655BE6970549C9D82FC /* SkColorMatrixFilter.cpp in Sources */,
+				D043B57F224F3A1B5F956631 /* SkComposeImageFilter.cpp in Sources */,
+				F7B6D2AD50F171BF2DB587FB /* SkCornerPathEffect.cpp in Sources */,
+				D57A0AAFC9841D4F2FD0B807 /* SkDashPathEffect.cpp in Sources */,
+				75756E08096F0BA491037507 /* SkDiscretePathEffect.cpp in Sources */,
+				AF44F8027854904468CA1E2D /* SkDisplacementMapEffect.cpp in Sources */,
+				D5D277F671F5938D2A153DE8 /* SkDropShadowImageFilter.cpp in Sources */,
+				25D6E3539661B0A6C503BB49 /* SkEmbossMask.cpp in Sources */,
+				89A36A83C6ABE0B5416D4057 /* SkEmbossMaskFilter.cpp in Sources */,
+				7DC7E57F53596305AADD62DC /* SkGpuBlurUtils.cpp in Sources */,
+				F54AAB97F9CB4F83AD37FC62 /* SkKernel33MaskFilter.cpp in Sources */,
+				A4F185346B4F33BE3B96B9D6 /* SkLayerDrawLooper.cpp in Sources */,
+				A4C512DC19983F936A500BEC /* SkLayerRasterizer.cpp in Sources */,
+				5828DAF42B807BDD5C8457B8 /* SkLerpXfermode.cpp in Sources */,
+				58B9F7275DC5592C747F8A2E /* SkLightingImageFilter.cpp in Sources */,
+				58D127A0A17E8BCAF2DEF48F /* SkLumaColorFilter.cpp in Sources */,
+				4AFE19110619F1253EB01297 /* SkMagnifierImageFilter.cpp in Sources */,
+				01BAF7C21E88C97C2AAA44AC /* SkMatrixConvolutionImageFilter.cpp in Sources */,
+				ED4A883E35C65D449B194996 /* SkMergeImageFilter.cpp in Sources */,
+				7E9F9942B0D484C2B398ABB8 /* SkMorphologyImageFilter.cpp in Sources */,
+				AE8F2A1740CCFAA984EDF680 /* SkOffsetImageFilter.cpp in Sources */,
+				1587CB112CC55DD1CCDA8BA3 /* SkPaintFlagsDrawFilter.cpp in Sources */,
+				A4BD7B355F7AED4EAE51DFF5 /* SkPerlinNoiseShader.cpp in Sources */,
+				0CD559B0DA90CB443C910DF6 /* SkPictureImageFilter.cpp in Sources */,
+				0845FA5851B110D8445E464B /* SkPixelXorXfermode.cpp in Sources */,
+				76C64967E6C6C9281C19108B /* SkPorterDuff.cpp in Sources */,
+				9AD26AB392D5ED449D7532C8 /* SkRectShaderImageFilter.cpp in Sources */,
+				C4BEEF2AB0B92E0EA2B6CABC /* SkResizeImageFilter.cpp in Sources */,
+				9C9AF8F8C2A3A21CEBC91E2E /* SkStippleMaskFilter.cpp in Sources */,
+				B87B5862FFE6F4BEF4AEB3C3 /* SkTableColorFilter.cpp in Sources */,
+				0B06C0CD7260CB46F904CD0B /* SkTableMaskFilter.cpp in Sources */,
+				7DC726F562632458F97E1C3D /* SkTestImageFilters.cpp in Sources */,
+				18D80BDD85B42E1538F20FC6 /* SkTileImageFilter.cpp in Sources */,
+				1C398D5E2FC6487B29178329 /* SkTransparentShader.cpp in Sources */,
+				561A8BC48FDF7BA371A1E423 /* SkXfermodeImageFilter.cpp in Sources */,
+				550DAF2A64D3D8ACF9C95BBE /* SkBitmapCache.cpp in Sources */,
+				A1F380E39C3B46634D66373D /* SkClampRange.cpp in Sources */,
+				DEEDFDC9CE35E99E4D77FA2C /* SkGradientShader.cpp in Sources */,
+				F5BEC331182B4FC30A2FF7BB /* SkLinearGradient.cpp in Sources */,
+				BFE3E0EDDA159A74B50E0476 /* SkRadialGradient.cpp in Sources */,
+				DD0FCF3308DE7945EBF69EC0 /* SkTwoPointRadialGradient.cpp in Sources */,
+				4E035B016F34D30301F56D57 /* SkTwoPointConicalGradient.cpp in Sources */,
+				F46FB1465B2ABE04241C3F34 /* SkSweepGradient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12EF1607727FE7C55801F58E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		FB1EF55F063CAD5F0F3AAB09 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					../include/effects,
+					../src/effects,
+					../src/opts,
+					../src/core,
+					config,
+					../include/config,
+					../include/core,
+					../include/lazy,
+					../include/pathops,
+					../include/pipe,
+					ext,
+					../include/images,
+					../third_party/externals/libjpeg,
+					../include/utils,
+				);
+				PRODUCT_NAME = skia_effects;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD92F9FE557267002484F590 /* Build configuration list for PBXProject "effects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EF1607727FE7C55801F58E /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		E232F576F5264A26F8DF64D4 /* Build configuration list for PBXNativeTarget "effects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1EF55F063CAD5F0F3AAB09 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A777787BE1BBC6BF0F9E214 /* Project object */;
+}

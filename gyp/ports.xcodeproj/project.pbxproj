@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04810FA4288A901C905E25C0 /* SkDiscardableMemory_none.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88D92BA368540D02746D98D9 /* SkDiscardableMemory_none.cpp */; };
+		561BBBD6EEB001F27901CB57 /* SkGlobalInitialization_default.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B49A172C7FB26F187651806F /* SkGlobalInitialization_default.cpp */; };
+		5DF68F89F96AD48B7F9952FC /* SkTime_Unix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C93E2A5818E38CF74AA058C /* SkTime_Unix.cpp */; };
+		5F46555322B8B648C6C37949 /* SkOSFile_posix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1962E6876D1B6B7AA2199D3E /* SkOSFile_posix.cpp */; };
+		6B23727DE57483342FB9B3DA /* SkMemory_malloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 316E889BFC07DFF663A2146A /* SkMemory_malloc.cpp */; };
+		8C804FF11968693801B17894 /* SkTLS_pthread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 169CCC00B3C14F4058B7AB54 /* SkTLS_pthread.cpp */; };
+		8E89627F23A02121097C2CB5 /* SkXMLParser_empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 159A67E0AEE15874E172B62D /* SkXMLParser_empty.cpp */; };
+		A31E3D1C5E8A899B87E195F6 /* SkDebug_stdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D75B8440274C14D0E7624731 /* SkDebug_stdio.cpp */; };
+		C12723177C4E3B88AE94B079 /* SkOSFile_stdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2D3D27F6F0C97E942A870 /* SkOSFile_stdio.cpp */; };
+		FB8816694BB01E6DE9433045 /* SkPurgeableMemoryBlock_none.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60999C394ADA51D3CF7C33B4 /* SkPurgeableMemoryBlock_none.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05EE40016D43648A66316424 /* SkAtomics_none.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkAtomics_none.h; sourceTree = "<group>"; };
+		0A1131E64AD40F70D8CF87A9 /* SkFontMgr_default_gdi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkFontMgr_default_gdi.cpp; sourceTree = "<group>"; };
+		0C93E2A5818E38CF74AA058C /* SkTime_Unix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTime_Unix.cpp; sourceTree = "<group>"; };
+		159A67E0AEE15874E172B62D /* SkXMLParser_empty.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkXMLParser_empty.cpp; sourceTree = "<group>"; };
+		169CCC00B3C14F4058B7AB54 /* SkTLS_pthread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTLS_pthread.cpp; sourceTree = "<group>"; };
+		1962E6876D1B6B7AA2199D3E /* SkOSFile_posix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkOSFile_posix.cpp; sourceTree = "<group>"; };
+		316E889BFC07DFF663A2146A /* SkMemory_malloc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkMemory_malloc.cpp; sourceTree = "<group>"; };
+		3AF3A65244218A17C23E1325 /* SkFontMgr_default_dw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkFontMgr_default_dw.cpp; sourceTree = "<group>"; };
+		3BB823F06EF0916046DAB513 /* ports.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = ports.gyp; sourceTree = "<group>"; };
+		49F601448C9E4C1A5164CB18 /* SkDebug_nacl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDebug_nacl.cpp; sourceTree = "<group>"; };
+		4A420BEE39F47CD3EF4FA4EF /* SkFontHost_win_dw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkFontHost_win_dw.cpp; sourceTree = "<group>"; };
+		53DB1B876E3FB20B9176780C /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../../build/common.gypi; sourceTree = "<group>"; };
+		5D14E654A94A46DCED7095BC /* SkFontHost_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkFontHost_win.cpp; sourceTree = "<group>"; };
+		5EFDBC30C94D1D2C82B7F38E /* SkDebug_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDebug_win.cpp; sourceTree = "<group>"; };
+		60999C394ADA51D3CF7C33B4 /* SkPurgeableMemoryBlock_none.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkPurgeableMemoryBlock_none.cpp; sourceTree = "<group>"; };
+		786429C16D9A6991AB53B0C3 /* SkMutex_win.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkMutex_win.h; sourceTree = "<group>"; };
+		79B8B8C57CC6A074EB379FE1 /* SkMutex_pthread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkMutex_pthread.h; sourceTree = "<group>"; };
+		88D92BA368540D02746D98D9 /* SkDiscardableMemory_none.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDiscardableMemory_none.cpp; sourceTree = "<group>"; };
+		893C86EDF0B84BC89CB43E59 /* libskia_ports.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libskia_ports.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C796482F26A4AC1C8072CB2 /* SkAtomics_win.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkAtomics_win.h; sourceTree = "<group>"; };
+		987093DA262F8E887890F0ED /* SkAtomics_android.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkAtomics_android.h; sourceTree = "<group>"; };
+		98A43730DA164D89F580D074 /* SkAtomics_sync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkAtomics_sync.h; sourceTree = "<group>"; };
+		9EE2D3D27F6F0C97E942A870 /* SkOSFile_stdio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkOSFile_stdio.cpp; sourceTree = "<group>"; };
+		A72D8DFDAB62C0094094F3E9 /* SkTime_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTime_win.cpp; sourceTree = "<group>"; };
+		B49A172C7FB26F187651806F /* SkGlobalInitialization_default.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkGlobalInitialization_default.cpp; sourceTree = "<group>"; };
+		BBD1B65550ACBF66590DF2AF /* SkOSFile_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkOSFile_win.cpp; sourceTree = "<group>"; };
+		CE055C73ABAAC527C0FD7960 /* SkTLS_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkTLS_win.cpp; sourceTree = "<group>"; };
+		D75B8440274C14D0E7624731 /* SkDebug_stdio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkDebug_stdio.cpp; sourceTree = "<group>"; };
+		FFE19C01CEF93BAAC6A248E4 /* SkMutex_none.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkMutex_none.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F88681068A17A4B62080F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AB4819E766A6F3C33EBA5F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				987093DA262F8E887890F0ED /* SkAtomics_android.h */,
+				05EE40016D43648A66316424 /* SkAtomics_none.h */,
+				98A43730DA164D89F580D074 /* SkAtomics_sync.h */,
+				8C796482F26A4AC1C8072CB2 /* SkAtomics_win.h */,
+				49F601448C9E4C1A5164CB18 /* SkDebug_nacl.cpp */,
+				D75B8440274C14D0E7624731 /* SkDebug_stdio.cpp */,
+				5EFDBC30C94D1D2C82B7F38E /* SkDebug_win.cpp */,
+				88D92BA368540D02746D98D9 /* SkDiscardableMemory_none.cpp */,
+				5D14E654A94A46DCED7095BC /* SkFontHost_win.cpp */,
+				4A420BEE39F47CD3EF4FA4EF /* SkFontHost_win_dw.cpp */,
+				3AF3A65244218A17C23E1325 /* SkFontMgr_default_dw.cpp */,
+				0A1131E64AD40F70D8CF87A9 /* SkFontMgr_default_gdi.cpp */,
+				B49A172C7FB26F187651806F /* SkGlobalInitialization_default.cpp */,
+				316E889BFC07DFF663A2146A /* SkMemory_malloc.cpp */,
+				FFE19C01CEF93BAAC6A248E4 /* SkMutex_none.h */,
+				79B8B8C57CC6A074EB379FE1 /* SkMutex_pthread.h */,
+				786429C16D9A6991AB53B0C3 /* SkMutex_win.h */,
+				1962E6876D1B6B7AA2199D3E /* SkOSFile_posix.cpp */,
+				9EE2D3D27F6F0C97E942A870 /* SkOSFile_stdio.cpp */,
+				BBD1B65550ACBF66590DF2AF /* SkOSFile_win.cpp */,
+				60999C394ADA51D3CF7C33B4 /* SkPurgeableMemoryBlock_none.cpp */,
+				169CCC00B3C14F4058B7AB54 /* SkTLS_pthread.cpp */,
+				CE055C73ABAAC527C0FD7960 /* SkTLS_win.cpp */,
+				0C93E2A5818E38CF74AA058C /* SkTime_Unix.cpp */,
+				A72D8DFDAB62C0094094F3E9 /* SkTime_win.cpp */,
+				159A67E0AEE15874E172B62D /* SkXMLParser_empty.cpp */,
+			);
+			name = Source;
+			path = ../src/ports;
+			sourceTree = "<group>";
+		};
+		8BE0CAF5BB132440410E3EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893C86EDF0B84BC89CB43E59 /* libskia_ports.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58554E1B3FF98E3761F4650 = {
+			isa = PBXGroup;
+			children = (
+				02AB4819E766A6F3C33EBA5F /* Source */,
+				8BE0CAF5BB132440410E3EA3 /* Products */,
+				A9EC6EB8D7709F2836F47F27 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		A9EC6EB8D7709F2836F47F27 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				53DB1B876E3FB20B9176780C /* common.gypi */,
+				3BB823F06EF0916046DAB513 /* ports.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FBB2066D17FDFB873DA3F9 /* ports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274AF5CCC725E6C8B41F1145 /* Build configuration list for PBXNativeTarget "ports" */;
+			buildPhases = (
+				403D21850C32A4AE78A78BE8 /* Sources */,
+				71F88681068A17A4B62080F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ports;
+			productName = skia_ports;
+			productReference = 893C86EDF0B84BC89CB43E59 /* libskia_ports.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C298540E89F6848FDED0638D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = D0062A2D228C23B2353EC990 /* Build configuration list for PBXProject "ports" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = A58554E1B3FF98E3761F4650;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FBB2066D17FDFB873DA3F9 /* ports */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403D21850C32A4AE78A78BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31E3D1C5E8A899B87E195F6 /* SkDebug_stdio.cpp in Sources */,
+				561BBBD6EEB001F27901CB57 /* SkGlobalInitialization_default.cpp in Sources */,
+				6B23727DE57483342FB9B3DA /* SkMemory_malloc.cpp in Sources */,
+				5F46555322B8B648C6C37949 /* SkOSFile_posix.cpp in Sources */,
+				C12723177C4E3B88AE94B079 /* SkOSFile_stdio.cpp in Sources */,
+				04810FA4288A901C905E25C0 /* SkDiscardableMemory_none.cpp in Sources */,
+				FB8816694BB01E6DE9433045 /* SkPurgeableMemoryBlock_none.cpp in Sources */,
+				5DF68F89F96AD48B7F9952FC /* SkTime_Unix.cpp in Sources */,
+				8C804FF11968693801B17894 /* SkTLS_pthread.cpp in Sources */,
+				8E89627F23A02121097C2CB5 /* SkXMLParser_empty.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0467C24C342CD3EDCFF3E8A3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		BAC315F89A6DB2F1077877C5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					../include/effects,
+					../include/images,
+					../include/ports,
+					../include/utils,
+					../include/utils/win,
+					../include/xml,
+					../src/core,
+					../src/lazy,
+					../src/ports,
+					../src/sfnt,
+					../src/utils,
+					config,
+					../include/config,
+					../include/core,
+					../include/lazy,
+					../include/pathops,
+					../include/pipe,
+					ext,
+				);
+				PRODUCT_NAME = skia_ports;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274AF5CCC725E6C8B41F1145 /* Build configuration list for PBXNativeTarget "ports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC315F89A6DB2F1077877C5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		D0062A2D228C23B2353EC990 /* Build configuration list for PBXProject "ports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467C24C342CD3EDCFF3E8A3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C298540E89F6848FDED0638D /* Project object */;
+}
